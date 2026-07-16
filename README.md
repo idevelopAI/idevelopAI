@@ -9,8 +9,6 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=760&lines=Building+production-minded+GenAI+systems;Turning+natural+language+into+safe+software;RAG+%7C+FastAPI+%7C+Cloud+%7C+DevOps)](https://git.io/typing-svg)
 
-[![Profile Views](https://komarev.com/ghpvc/?username=idevelopAI&style=for-the-badge&color=0284C7&label=PROFILE+VIEWS)](https://github.com/idevelopAI)
-[![GitHub followers](https://img.shields.io/github/followers/idevelopAI?style=for-the-badge&logo=github&label=FOLLOWERS&color=7C3AED)](https://github.com/idevelopAI?tab=followers)
 
 </div>
 
@@ -85,7 +83,7 @@ My favorite work lives where **AI meets dependable software engineering**: clear
 
 </div>
 
-
+<div align="center">
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=idevelopAI&theme=tokyonight&hide_border=true&background=0D1117)](https://git.io/streak-stats)
 
