@@ -14,17 +14,17 @@
 
 </div>
 
-## `> whoami`
+## `> who am i`
 
 I am an **AI/ML Engineer** building practical generative AI systems - from retrieval pipelines and LLM agents to secure APIs, containerized infrastructure, and automated delivery.
 
 My favorite work lives where **AI meets dependable software engineering**: clear API boundaries, measurable retrieval quality, defensive data access, observability, and deployment-ready architecture.
 
-- 🔭 Building **RAG systems** and **safe LLM-powered data applications**
-- 🛡️ Interested in AI guardrails, read-only agent design, evaluation, and reliability
-- ⚙️ Comfortable across backend, data, cloud, containers, CI/CD, and Linux
-- 🌍 Building bilingual experiences in **English and German**
-- 💡 I care about systems that do more than demo - they should be testable and explainable
+-  Building **RAG systems** and **safe LLM-powered data applications**
+-  Interested in AI guardrails, read-only agent design, evaluation, and reliability
+-  Comfortable across backend, data, cloud, containers, CI/CD, and Linux
+-  Building bilingual experiences in **English and German**
+-  I care about systems that do more than demo - they should be testable and explainable
 
 ## Featured builds
 
@@ -85,30 +85,7 @@ My favorite work lives where **AI meets dependable software engineering**: clear
 
 </div>
 
-## How I build
 
-```text
-Question or document
-        ↓
-Validated API boundary
-        ↓
-Retrieval / agent workflow
-        ↓
-Guardrails + evaluation
-        ↓
-Observable, testable result
-```
-
-I approach AI applications as complete software systems: **validate inputs, constrain tools, make outputs inspectable, test the risky paths, and automate repeatable delivery.**
-
-## GitHub activity
-
-<div align="center">
-
-[![Profile details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=idevelopAI&theme=tokyonight)](https://github.com/idevelopAI)
-
-[![Languages by repository](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=idevelopAI&theme=tokyonight)](https://github.com/idevelopAI?tab=repositories)
-[![GitHub stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=idevelopAI&theme=tokyonight)](https://github.com/idevelopAI)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=idevelopAI&theme=tokyonight&hide_border=true&background=0D1117)](https://git.io/streak-stats)
 
