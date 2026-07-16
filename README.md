@@ -12,7 +12,7 @@
 
 </div>
 
-## `> who am i`
+## ` who am i`
 
 I am an **AI/ML Engineer** building practical generative AI systems - from retrieval pipelines and LLM agents to secure APIs, containerized infrastructure, and automated delivery.
 
