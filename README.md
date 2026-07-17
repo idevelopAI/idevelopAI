@@ -85,7 +85,13 @@ My favorite work lives where **AI meets dependable software engineering**: clear
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=idevelopAI&theme=tokyonight&hide_border=true&background=0D1117&v=20260717)](https://git.io/streak-stats)
+  <a href="https://github.com/idevelopAI">
+    <img
+      src="https://github-readme-streak-stats-eight.vercel.app/?user=idevelopAI&theme=tokyonight&hide_border=true&background=0D1117"
+      alt="GitHub Streak"
+    />
+  </a>
+</div>
 
 </div>
 
