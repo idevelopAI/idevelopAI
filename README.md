@@ -12,7 +12,7 @@
 
 <br><br>
 
-<code>Evaluation infrastructure</code> · <code>Secure AI data systems</code> · <code>Reliable delivery</code>
+
 
 <br><br>
 
@@ -32,21 +32,21 @@ I build evaluation infrastructure, secure data applications, and retrieval syste
 <table>
 <tr>
 <td width="50%" valign="top">
-<strong>🧪 Current focus</strong><br>
+<strong> Current focus</strong><br>
 LLM evaluation, release gates, case-level evidence, and safe AI data access
 </td>
 <td width="50%" valign="top">
-<strong>⚙️ Engineering approach</strong><br>
+<strong> Engineering approach</strong><br>
 Deterministic first, explicit boundaries, measurable behavior, recoverable execution
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<strong>🧰 Core stack</strong><br>
+<strong> Core stack</strong><br>
 Python, FastAPI, PostgreSQL, SQLAlchemy, React, TypeScript, Docker, GitHub Actions
 </td>
 <td width="50%" valign="top">
-<strong>🌍 Perspective</strong><br>
+<strong> Perspective</strong><br>
 Based in Germany · Building in English and German · Backend, data, cloud, and Linux
 </td>
 </tr>
@@ -56,7 +56,7 @@ Based in Germany · Building in English and German · Backend, data, cloud, and 
 
 <div align="center">
 
-<h3>🧭 <a href="https://github.com/idevelopAI/llm-eval-control-plane">LLM Eval Control Plane</a></h3>
+<h3> <a href="https://github.com/idevelopAI/llm-eval-control-plane">LLM Eval Control Plane</a></h3>
 
 <strong>From AI change to reviewable release decision.</strong>
 
@@ -73,15 +73,15 @@ A deterministic-first evaluation platform for versioned datasets, reproducible r
 <table>
 <tr>
 <td width="33%" valign="top">
-<strong>🔁 Reproduce</strong><br>
+<strong> Reproduce</strong><br>
 Immutable datasets, versioned artifacts, canonical digests, and case-level evidence
 </td>
 <td width="33%" valign="top">
-<strong>🚦 Decide</strong><br>
+<strong> Decide</strong><br>
 Baseline–candidate comparison with quality, safety, language, latency, and usage gates
 </td>
 <td width="34%" valign="top">
-<strong>🛡️ Operate</strong><br>
+<strong> Operate</strong><br>
 Durable workers, cancellation, recovery, fenced publication, and privacy-safe observability
 </td>
 </tr>
@@ -99,14 +99,14 @@ Durable workers, cancellation, recovery, fenced publication, and privacy-safe ob
 <table>
 <tr>
 <td width="50%" valign="top">
-<h3>🔐 <a href="https://github.com/idevelopAI/databridge-ai">DataBridge AI</a></h3>
+<h3> <a href="https://github.com/idevelopAI/databridge-ai">DataBridge AI</a></h3>
 <p><strong>Ask your database. Inspect the query.</strong></p>
 <p>A bilingual natural-language interface for PostgreSQL with read-only execution and independent safety controls. It turns English or German questions into validated SQL and returns an answer, table, chart, CSV, and inspectable query.</p>
 <p><sub><strong>FastAPI · Gemini · PostgreSQL · SQLAlchemy · SQLGlot · Streamlit</strong></sub></p>
 <a href="https://github.com/idevelopAI/databridge-ai"><img alt="Explore DataBridge AI" src="https://img.shields.io/badge/View_project-0D1117?style=flat-square&amp;logo=github&amp;logoColor=white"></a>
 </td>
 <td width="50%" valign="top">
-<h3>📚 <a href="https://github.com/idevelopAI/genai-knowledge-base">GenAI Knowledge Base</a></h3>
+<h3> <a href="https://github.com/idevelopAI/genai-knowledge-base">GenAI Knowledge Base</a></h3>
 <p><strong>Ask across PDFs. Trace every answer to its source.</strong></p>
 <p>A local-first RAG application that answers questions with document, page, and excerpt citations. It combines versioned ingestion, relevance filtering, deterministic retrieval evaluation, authentication, caching, and circuit breaking.</p>
 <p><sub><strong>Python · FastAPI · LangChain · ChromaDB · Gemini · Streamlit</strong></sub></p>
@@ -120,21 +120,21 @@ Durable workers, cancellation, recovery, fenced publication, and privacy-safe ob
 <table>
 <tr>
 <td width="50%" valign="top">
-<strong>🧪 Evaluation & reliability</strong><br>
+<strong> Evaluation & reliability</strong><br>
 Deterministic scoring · Versioned artifacts · Slice-aware release gates · Evidence preservation
 </td>
 <td width="50%" valign="top">
-<strong>🗄️ Backend & data</strong><br>
+<strong> Backend & data</strong><br>
 Python · FastAPI · PostgreSQL · SQLAlchemy · API design · Durable background jobs
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<strong>🔒 Security & operations</strong><br>
+<strong> Security & operations</strong><br>
 Read-only boundaries · Secrets hygiene · Rate limits · Observability · Recovery · CI/CD
 </td>
 <td width="50%" valign="top">
-<strong>🖥️ Interfaces & applied AI</strong><br>
+<strong> Interfaces & applied AI</strong><br>
 React · TypeScript · Streamlit · RAG · Source citations · English/German experiences
 </td>
 </tr>
