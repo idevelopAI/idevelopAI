@@ -29,7 +29,7 @@ My favorite work lives where **AI meets dependable software engineering**: deter
 <table>
 <tr>
 <td width="100%" valign="top">
-<h3>🧭 <a href="https://github.com/idevelopAI/llm-eval-control-plane">LLM Eval Control Plane</a> <sup>Flagship project</sup></h3>
+<h3>🧭 <a href="https://github.com/idevelopAI/llm-eval-control-plane">LLM Eval Control Plane</a> </h3>
 <p><strong>Know whether an AI change should ship—and keep the evidence.</strong></p>
 <p>A deterministic-first control plane for reproducible AI evaluations, baseline/candidate comparisons, and slice-aware release gates across quality, safety, latency, and usage. Every decision retains reviewable case-level evidence.</p>
 <a href="https://github.com/idevelopAI/llm-eval-control-plane"><img width="100%" alt="LLM Eval Control Plane release-evidence dashboard" src="https://raw.githubusercontent.com/idevelopAI/llm-eval-control-plane/main/docs/assets/release-dashboard-fixture.jpg"></a>
