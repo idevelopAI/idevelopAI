@@ -7,24 +7,40 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,45:0284C7,100:7C3AED&height=230&section=header&text=Nika%20Akophiani&fontSize=48&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=AI%2FML%20Engineer&descAlignY=55&descSize=20)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=760&lines=Building+production-minded+GenAI+systems;Turning+natural+language+into+safe+software;RAG+%7C+FastAPI+%7C+Cloud+%7C+DevOps)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=760&lines=Building+production-minded+LLM+evaluation+systems;Turning+AI+behavior+into+release+evidence;FastAPI+%7C+PostgreSQL+%7C+React+%7C+Reliability)](https://git.io/typing-svg)
 
 
 </div>
 
 ## ` who am i`
 
-I am an **AI/ML Engineer** building practical generative AI systems - from retrieval pipelines and LLM agents to secure APIs, containerized infrastructure, and automated delivery.
+I am an **AI/ML Engineer** building production-minded AI systems - from evaluation control planes and release safety to secure data applications, retrieval pipelines, and automated delivery.
 
-My favorite work lives where **AI meets dependable software engineering**: clear API boundaries, measurable retrieval quality, defensive data access, observability, and deployment-ready architecture.
+My favorite work lives where **AI meets dependable software engineering**: deterministic evaluation, case-level evidence, secure API boundaries, durable workers, privacy-aware observability, and deployment-ready architecture.
 
--  Building **RAG systems** and **safe LLM-powered data applications**
--  Interested in AI guardrails, read-only agent design, evaluation, and reliability
+-  Building **LLM evaluation systems** with release gates, case-level evidence, and privacy boundaries
+-  Designing **secure AI data systems** and reproducible retrieval pipelines
 -  Comfortable across backend, data, cloud, containers, CI/CD, and Linux
 -  Building bilingual experiences in **English and German**
--  I care about systems that do more than demo - they should be testable and explainable
+-  I care about systems that do more than demo - they should be testable, observable, and recoverable
 
 ## Featured builds
+
+<table>
+<tr>
+<td width="100%" valign="top">
+<h3>🧭 <a href="https://github.com/idevelopAI/llm-eval-control-plane">LLM Eval Control Plane</a> <sup>Flagship project</sup></h3>
+<p><strong>Know whether an AI change should ship—and keep the evidence.</strong></p>
+<p>A deterministic-first control plane for reproducible AI evaluations, baseline/candidate comparisons, and slice-aware release gates across quality, safety, latency, and usage. Every decision retains reviewable case-level evidence.</p>
+<a href="https://github.com/idevelopAI/llm-eval-control-plane"><img width="100%" alt="LLM Eval Control Plane release-evidence dashboard" src="https://raw.githubusercontent.com/idevelopAI/llm-eval-control-plane/main/docs/assets/release-dashboard-fixture.jpg"></a>
+<p><strong>Built with:</strong> Python, FastAPI, PostgreSQL, SQLAlchemy, React, TypeScript, Docker Compose, GitHub Actions</p>
+<p><strong>Engineering focus:</strong> content-addressed datasets, semantic idempotency, durable leased workers, cancellation and recovery, fenced publication, privacy-safe observability, redacted evidence views, and deterministic CI.</p>
+<a href="https://github.com/idevelopAI/llm-eval-control-plane"><img alt="Explore the LLM Eval Control Plane repository" src="https://img.shields.io/badge/Explore_the_flagship_project-0D1117?style=for-the-badge&amp;logo=github&amp;logoColor=white"></a>
+</td>
+</tr>
+</table>
+
+### More production-minded builds
 
 <table>
 <tr>
@@ -103,7 +119,7 @@ My favorite work lives where **AI meets dependable software engineering**: clear
 
 [![GitHub](https://img.shields.io/badge/Explore_my_work-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/idevelopAI?tab=repositories)
 
-<sub>Building useful AI systems with Python, careful engineering, and curiosity.</sub>
+<sub>Building reliable AI systems with measurable behavior, careful engineering, and curiosity.</sub>
 
 </div>
 
