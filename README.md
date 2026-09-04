@@ -25,7 +25,7 @@
 
 ## About
 
-Hi, I’m Nika—an **AI/ML engineer** focused on the engineering around models: how behavior is measured, changes are reviewed, and quality or safety regressions are caught before release.
+Hi, I’m Nika-an **AI/ML engineer** focused on the engineering around models: how behavior is measured, changes are reviewed, and quality or safety regressions are caught before release.
 
 I build evaluation infrastructure, secure data applications, and retrieval systems with **reproducibility, privacy, observability, and recovery** designed in from the start.
 
