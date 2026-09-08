@@ -1,157 +1,106 @@
-<!--
-  GitHub profile README for github.com/idevelopAI
--->
-
 <div align="center">
 
-<img width="100%" alt="Nika Akophiani — AI/ML Engineer" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0F172A,45:0284C7,100:7C3AED&amp;height=220&amp;section=header&amp;text=Nika%20Akophiani&amp;fontSize=46&amp;fontColor=FFFFFF&amp;animation=fadeIn&amp;fontAlignY=34&amp;desc=AI%2FML%20Engineer%20%E2%80%A2%20LLM%20Evaluation%20%E2%80%A2%20Reliable%20GenAI%20Systems&amp;descAlignY=56&amp;descSize=16">
+<p><sub>AI ENGINEERING · EVALUATION · BACKEND SYSTEMS</sub></p>
+<h1>Nika Akophiani</h1>
+<h3>I build AI applications you can inspect, evaluate, and trust.</h3>
+<p>AI/ML Engineer based in Germany.<br>Python services, reliable evaluation infrastructure, and useful applications built around LLMs.</p>
 
-<br>
+<p>
+<a href="https://llm-eval-control-plane.nick0ne.chatgpt.site/"><img alt="Explore the evaluation dashboard demo" src="https://img.shields.io/badge/Explore_the_demo-2563EB?style=for-the-badge"></a>
+<a href="https://github.com/idevelopAI?tab=repositories"><img alt="Browse all public repositories" src="https://img.shields.io/badge/Browse_the_code-161B22?style=for-the-badge&amp;logo=github&amp;logoColor=white"></a>
+</p>
 
-<strong>I build the control layer around AI—evaluation, evidence, and release decisions.</strong>
-
-<br><br>
-
-
-
-<br><br>
-
-<a href="https://github.com/idevelopAI/llm-eval-control-plane"><img alt="View flagship project" src="https://img.shields.io/badge/Flagship-LLM_Eval_Control_Plane-0284C7?style=for-the-badge&amp;logo=github&amp;logoColor=white"></a>
-<a href="https://github.com/idevelopAI?tab=repositories"><img alt="Explore all projects" src="https://img.shields.io/badge/Explore-All_Projects-0F172A?style=for-the-badge&amp;logo=github&amp;logoColor=white"></a>
+<p><sub>LLM evaluation · Retrieval-augmented generation · Text-to-SQL · API design · PostgreSQL · CI/CD</sub></p>
 
 </div>
 
-<br>
+---
 
-## About
+I work across the full application: model integration, data access, APIs, background workers, interfaces, and automated checks. My projects focus on **measuring AI behavior, protecting data, and making failures recoverable**.
 
-Hi, I’m Nika-an **AI/ML engineer** focused on the engineering around models: how behavior is measured, changes are reviewed, and quality or safety regressions are caught before release.
+## Explore my projects
 
-I build evaluation infrastructure, secure data applications, and retrieval systems with **reproducibility, privacy, observability, and recovery** designed in from the start.
+| Project | What it solves | Start here |
+| :--- | :--- | :--- |
+| **[LLM Eval Control Plane](https://github.com/idevelopAI/llm-eval-control-plane)** | Evaluate AI changes and explain release decisions | [Public demo](https://llm-eval-control-plane.nick0ne.chatgpt.site/) |
+| **[DataBridge AI](https://github.com/idevelopAI/databridge-ai)** | Ask PostgreSQL questions in English or German with read-only safeguards | [75-second walkthrough](https://github.com/idevelopAI/databridge-ai/blob/main/docs/demo.mp4) |
+| **[GenAI Knowledge Base](https://github.com/idevelopAI/genai-knowledge-base)** | Ask questions across PDFs and inspect the sources | [Screenshots & setup](https://github.com/idevelopAI/genai-knowledge-base#screenshots) |
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<strong> Current focus</strong><br>
-LLM evaluation, release gates, case-level evidence, and safe AI data access
-</td>
-<td width="50%" valign="top">
-<strong> Engineering approach</strong><br>
-Deterministic first, explicit boundaries, measurable behavior, recoverable execution
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<strong> Core stack</strong><br>
-Python, FastAPI, PostgreSQL, SQLAlchemy, React, TypeScript, Docker, GitHub Actions
-</td>
-<td width="50%" valign="top">
-<strong> Perspective</strong><br>
-Based in Germany · Building in English and German · Backend, data, cloud, and Linux
-</td>
-</tr>
-</table>
+## 01 / LLM Eval Control Plane
 
-## Flagship project
+**Evaluation infrastructure · Featured project**
 
-<div align="center">
+Should an AI change ship? This control plane compares baseline and candidate runs, enforces release policies, and preserves the evidence behind each decision.
 
-<h3> <a href="https://github.com/idevelopAI/llm-eval-control-plane">LLM Eval Control Plane</a></h3>
+<a href="https://llm-eval-control-plane.nick0ne.chatgpt.site/"><img width="100%" alt="Synthetic release dashboard showing a blocked release, failed policy gate, and case-level scoring evidence" src="https://raw.githubusercontent.com/idevelopAI/llm-eval-control-plane/main/docs/assets/release-dashboard-fixture.jpg"></a>
 
-<strong>From AI change to reviewable release decision.</strong>
+<sub>Public demo uses synthetic evaluation evidence; no API or model calls.</sub>
 
-</div>
+- **Reproducible evaluation:** versioned datasets, immutable artifacts, and gates for specific safety and language groups.
+- **Resilient execution:** PostgreSQL jobs, idempotent submissions, worker leases, cancellation, recovery, and fenced evidence publication.
+- **Reviewable decisions:** case-level comparisons, redacted dashboard views, and telemetry that excludes evaluation content.
 
-<br>
+The documented offline DataBridge evaluation covers **56 English/German cases**: all seven baseline gates pass, and six gates block four deliberately introduced regressions.
 
-<a href="https://github.com/idevelopAI/llm-eval-control-plane"><img width="100%" alt="LLM Eval Control Plane release-evidence dashboard" src="https://raw.githubusercontent.com/idevelopAI/llm-eval-control-plane/main/docs/assets/release-dashboard-fixture.jpg"></a>
+`Python` `FastAPI` `PostgreSQL` `SQLAlchemy` `React` `TypeScript` `Docker`
 
-<br>
+**[Explore demo →](https://llm-eval-control-plane.nick0ne.chatgpt.site/)** &nbsp; [Source code](https://github.com/idevelopAI/llm-eval-control-plane) &nbsp; [Architecture](https://github.com/idevelopAI/llm-eval-control-plane/blob/main/docs/architecture.md) &nbsp; [Release checks](https://github.com/idevelopAI/llm-eval-control-plane/actions)
 
-A deterministic-first evaluation platform for versioned datasets, reproducible runs, baseline–candidate comparisons, and slice-aware gates across quality, safety, latency, and usage. It preserves redacted case-level evidence behind each decision and executes work through durable, recoverable PostgreSQL-backed jobs.
+---
 
-<table>
-<tr>
-<td width="33%" valign="top">
-<strong> Reproduce</strong><br>
-Immutable datasets, versioned artifacts, canonical digests, and case-level evidence
-</td>
-<td width="33%" valign="top">
-<strong> Decide</strong><br>
-Baseline–candidate comparison with quality, safety, language, latency, and usage gates
-</td>
-<td width="34%" valign="top">
-<strong> Operate</strong><br>
-Durable workers, cancellation, recovery, fenced publication, and privacy-safe observability
-</td>
-</tr>
-</table>
+## 02 / DataBridge AI
 
-<div align="center">
+**Applied AI · Database safety**
 
-<a href="https://github.com/idevelopAI/llm-eval-control-plane"><img alt="Explore the LLM Eval Control Plane repository" src="https://img.shields.io/badge/Explore_repository-0D1117?style=for-the-badge&amp;logo=github&amp;logoColor=white"></a>
-<a href="https://github.com/idevelopAI/llm-eval-control-plane/blob/main/docs/architecture.md"><img alt="Read the architecture" src="https://img.shields.io/badge/Read_architecture-0284C7?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=white"></a>
+A natural-language interface for PostgreSQL that turns English or German questions into inspectable SQL, answers, tables, charts, and CSV exports.
 
-</div>
+<a href="https://github.com/idevelopAI/databridge-ai/blob/main/docs/demo.mp4"><img width="100%" alt="DataBridge AI interface with natural-language database questions and structured query results" src="https://raw.githubusercontent.com/idevelopAI/databridge-ai/main/docs/screenshot.jpg"></a>
 
-## Selected projects
+- **Independent safeguards:** SQL validation, restricted database roles, query-plan limits, and privacy masking.
+- **Clearer interactions:** ambiguity checks request clarification before a model call; bilingual business definitions guide queries.
+- **Easy to review:** recorded demo mode exercises the real validation and database workflow without a model API key.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3> <a href="https://github.com/idevelopAI/databridge-ai">DataBridge AI</a></h3>
-<p><strong>Ask your database. Inspect the query.</strong></p>
-<p>A bilingual natural-language interface for PostgreSQL with read-only execution and independent safety controls. It turns English or German questions into validated SQL and returns an answer, table, chart, CSV, and inspectable query.</p>
-<p><sub><strong>FastAPI · Gemini · PostgreSQL · SQLAlchemy · SQLGlot · Streamlit</strong></sub></p>
-<a href="https://github.com/idevelopAI/databridge-ai"><img alt="Explore DataBridge AI" src="https://img.shields.io/badge/View_project-0D1117?style=flat-square&amp;logo=github&amp;logoColor=white"></a>
-</td>
-<td width="50%" valign="top">
-<h3> <a href="https://github.com/idevelopAI/genai-knowledge-base">GenAI Knowledge Base</a></h3>
-<p><strong>Ask across PDFs. Trace every answer to its source.</strong></p>
-<p>A local-first RAG application that answers questions with document, page, and excerpt citations. It combines versioned ingestion, relevance filtering, deterministic retrieval evaluation, authentication, caching, and circuit breaking.</p>
-<p><sub><strong>Python · FastAPI · LangChain · ChromaDB · Gemini · Streamlit</strong></sub></p>
-<a href="https://github.com/idevelopAI/genai-knowledge-base"><img alt="Explore GenAI Knowledge Base" src="https://img.shields.io/badge/View_project-0D1117?style=flat-square&amp;logo=github&amp;logoColor=white"></a>
-</td>
-</tr>
-</table>
+`Python` `FastAPI` `LangChain` `Gemini` `PostgreSQL` `SQLGlot` `Streamlit`
 
-## Engineering toolkit
+**[Watch the walkthrough →](https://github.com/idevelopAI/databridge-ai/blob/main/docs/demo.mp4)** &nbsp; [Source code](https://github.com/idevelopAI/databridge-ai) &nbsp; [Run the no-key demo](https://github.com/idevelopAI/databridge-ai#no-key-demo)
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<strong> Evaluation & reliability</strong><br>
-Deterministic scoring · Versioned artifacts · Slice-aware release gates · Evidence preservation
-</td>
-<td width="50%" valign="top">
-<strong> Backend & data</strong><br>
-Python · FastAPI · PostgreSQL · SQLAlchemy · API design · Durable background jobs
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<strong> Security & operations</strong><br>
-Read-only boundaries · Secrets hygiene · Rate limits · Observability · Recovery · CI/CD
-</td>
-<td width="50%" valign="top">
-<strong> Interfaces & applied AI</strong><br>
-React · TypeScript · Streamlit · RAG · Source citations · English/German experiences
-</td>
-</tr>
-</table>
+---
 
-<br>
+## 03 / GenAI Knowledge Base
+
+**Retrieval-augmented generation · Document workflows**
+
+A local RAG application for asking questions across PDFs, with document names, page references, and supporting excerpts attached to answers.
+
+<a href="https://github.com/idevelopAI/genai-knowledge-base"><img width="100%" alt="GenAI Knowledge Base chat displaying an answer and expandable document source citations" src="https://raw.githubusercontent.com/idevelopAI/genai-knowledge-base/main/docs/screenshots/chat-with-sources.png"></a>
+
+- **Traceable answers:** document-scoped retrieval, relevance filtering, and source citations.
+- **Safer ingestion:** validated PDFs, bounded background jobs, and versioned indexes that preserve the active collection when a rebuild fails.
+- **Failure handling:** response caching, provider circuit breaking, and an optional local generation fallback.
+
+`Python` `FastAPI` `ChromaDB` `LangChain` `Gemini` `Streamlit` `Docker`
+
+**[Explore the project →](https://github.com/idevelopAI/genai-knowledge-base)** &nbsp; [Evaluation approach](https://github.com/idevelopAI/genai-knowledge-base#evaluation) &nbsp; [Local setup](https://github.com/idevelopAI/genai-knowledge-base#local-setup)
+
+## Engineering strengths
+
+| Area | Demonstrated in these projects |
+| :--- | :--- |
+| **AI & evaluation** | LLM integration, RAG, text-to-SQL, deterministic scoring, regression checks |
+| **Backend & data** | FastAPI, Pydantic, PostgreSQL, SQLAlchemy, durable jobs, API contracts |
+| **Reliability & security** | Recovery, scoped authentication, read-only access, privacy-aware telemetry |
+| **Delivery & interfaces** | Docker, GitHub Actions, automated tests, React, TypeScript, Streamlit |
+
+<details>
+<summary><strong>How the projects fit together</strong></summary>
+
+DataBridge AI and GenAI Knowledge Base explore two practical AI workflows: querying structured data and retrieving document knowledge. LLM Eval Control Plane extends that work into evaluation infrastructure, including a PostgreSQL replay suite for DataBridge. Together, they show how I connect application development with evidence, safety checks, and operational reliability.
+
+</details>
+
+---
 
 <div align="center">
-
-<h3>Measure the behavior. Keep the evidence. Ship deliberately.</h3>
-
-<a href="https://github.com/idevelopAI?tab=repositories"><img alt="Explore Nika Akophiani's repositories" src="https://img.shields.io/badge/Explore_my_work-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white"></a>
-
-<br><br>
-
-<sub>Building reliable AI systems with measurable behavior, careful engineering, and curiosity.</sub>
-
+<strong>Useful AI. Inspectable behavior. Careful engineering.</strong>
+<p><a href="https://github.com/idevelopAI?tab=repositories">Explore all public repositories</a> · <a href="https://github.com/idevelopAI/idevelopAI">Profile source</a></p>
 </div>
-
-<img width="100%" alt="" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0F172A,45:0284C7,100:7C3AED&amp;height=90&amp;section=footer">
