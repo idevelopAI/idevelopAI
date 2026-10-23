@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Nika Akophiani — AI/ML Engineer</title>
+<desc id="desc">AI systems, thoughtfully engineered. A dark navy banner with blue and violet geometric accents.</desc>
+<defs>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#38BDF8"/><stop offset=".5" stop-color="#818CF8"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+<linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111C32"/><stop offset="1" stop-color="#15152C"/></linearGradient>
+<clipPath id="clip"><rect width="1200" height="300" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="1200" height="300" fill="#0D1424"/>
+<rect x="0" width="1200" height="4" fill="url(#accent)"/>
+<path d="M825 0H1200V300H1000L825 125Z" fill="url(#panel)"/>
+<g fill="none" stroke="#334263" stroke-width="1.5">
+<rect x="945" y="65" width="116" height="116" rx="22" transform="rotate(-16 1003 123)"/>
+<rect x="1005" y="116" width="116" height="116" rx="22" transform="rotate(-16 1063 174)"/>
+</g>
+<path d="M966 121L991 146L1038 95" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1097" cy="77" r="5" fill="#A78BFA"/>
+<circle cx="937" cy="219" r="4" fill="#38BDF8"/>
+<text x="64" y="67" fill="#8CA3C8" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="600" letter-spacing="3">AI / ML ENGINEER</text>
+<text x="60" y="142" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="60" font-weight="700" letter-spacing="-1.8">Nika Akophiani</text>
+<text x="64" y="192" fill="#BCCBE0" font-family="Arial,Helvetica,sans-serif" font-size="25">AI systems, thoughtfully engineered.</text>
+<rect x="64" y="232" width="38" height="3" rx="1.5" fill="url(#accent)"/>
+<text x="116" y="239" fill="#8CA3C8" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing="1">EVALUATION · BACKEND · APPLIED AI</text>
+</g>
+</svg>
