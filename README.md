@@ -1,6 +1,6 @@
 <!-- GitHub profile: idevelopAI -->
 
-<p><sub>AI / ML ENGINEER</sub></p>
+<p><sub>AI ENGINEER · PYTHON BACKEND</sub></p>
 
 # Nika Akophiani
 
@@ -14,6 +14,8 @@ LLM evaluation · Secure data applications · Retrieval systems
 
 ## LLM Eval Control Plane
 
+<a href="https://llm-eval-control-plane-idevelopai.vercel.app/"><img src="assets/eval-dashboard.png" alt="LLM Eval Control Plane dashboard showing a blocked release: 3 of 4 gates passed, one newly failing case" width="100%"></a>
+
 Evidence-driven release decisions for LLM applications. Compare baseline and candidate runs, catch regressions, and inspect the evidence behind each release gate.
 
 Built with immutable evaluation suites, durable PostgreSQL workers, and recovery-aware execution.
@@ -24,20 +26,14 @@ Built with immutable evaluation suites, durable PostgreSQL workers, and recovery
 
 <br>
 
-### DataBridge AI
+<sub>ALSO BUILT</sub>
 
-English and German questions turned into validated SQL, tables, and charts—with read-only database access and layered safety checks.
+**[DataBridge AI](https://github.com/idevelopAI/databridge-ai)** — Bilingual questions turned into validated, read-only SQL.
 
-[Code ↗](https://github.com/idevelopAI/databridge-ai) &nbsp; · &nbsp; [Walkthrough](https://github.com/idevelopAI/databridge-ai/blob/main/docs/demo.mp4)
-
-### GenAI Knowledge Base
-
-A local document Q&A application with source citations, relevance filtering, and versioned ingestion.
-
-[Code ↗](https://github.com/idevelopAI/genai-knowledge-base) &nbsp; · &nbsp; [Evaluation](https://github.com/idevelopAI/genai-knowledge-base#evaluation)
+**[GenAI Knowledge Base](https://github.com/idevelopAI/genai-knowledge-base)** — Local document Q&A with source citations.
 
 <br>
 
 ---
 
-<sub>Python · FastAPI · PostgreSQL · React · TypeScript · Docker · GitHub Actions</sub>
+<sub>Python · FastAPI · PostgreSQL · React · TypeScript · Docker · AWS · GitHub Actions</sub>
