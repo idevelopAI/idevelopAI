@@ -14,7 +14,7 @@ LLM evaluation · Secure data applications · Retrieval systems
 
 ## LLM Eval Control Plane
 
-<a href="https://llm-eval-control-plane-idevelopai.vercel.app/"><img src="assets/eval-dashboard.png" alt="LLM Eval Control Plane dashboard showing a blocked release: 3 of 4 gates passed, one newly failing case" width="100%"></a>
+<a href="https://llm-eval-control-plane-idevelopai.vercel.app/"><img src="assets/eval-dashboard-console.png" alt="LLM Eval Control Plane dashboard showing a blocked release: 3 of 4 gates passed, one newly failing case" width="100%"></a>
 
 Evidence-driven release decisions for LLM applications. Compare baseline and candidate runs, catch regressions, and inspect the evidence behind each release gate.
 
