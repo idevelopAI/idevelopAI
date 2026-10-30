@@ -20,7 +20,7 @@ Evidence-driven release decisions for LLM applications. Compare baseline and can
 
 Built with immutable evaluation suites, durable PostgreSQL workers, and recovery-aware execution.
 
-**[Explore demo ↗](https://llm-eval-control-plane-idevelopai.vercel.app/)** &nbsp; · &nbsp; [Code](https://github.com/idevelopAI/llm-eval-control-plane) &nbsp; · &nbsp; [Architecture](https://github.com/idevelopAI/llm-eval-control-plane/blob/main/docs/architecture.md)
+**[Explore demo ↗]([https://llm-eval-control-plane-idevelopai.vercel.app](https://evalcontrol.vercel.app)/)** &nbsp; · &nbsp; [Code](https://github.com/idevelopAI/llm-eval-control-plane) &nbsp; · &nbsp; [Architecture](https://github.com/idevelopAI/llm-eval-control-plane/blob/main/docs/architecture.md)
 
 <sub>The public demo uses synthetic results; it does not run evaluations.</sub>
 
